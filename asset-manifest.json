@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.124d862a.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.bdfc62e0.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.bdfc62e0.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.b1ecb874.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.b1ecb874.js.map",
+    "static/js/2.bbd7e595.chunk.js": "/MyPortfolio/static/js/2.bbd7e595.chunk.js",
+    "static/js/2.bbd7e595.chunk.js.map": "/MyPortfolio/static/js/2.bbd7e595.chunk.js.map",
+    "static/js/3.e0b20009.chunk.js": "/MyPortfolio/static/js/3.e0b20009.chunk.js",
+    "static/js/3.e0b20009.chunk.js.map": "/MyPortfolio/static/js/3.e0b20009.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.124d862a.chunk.css.map": "/MyPortfolio/static/css/main.124d862a.chunk.css.map",
+    "static/js/2.bbd7e595.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.bbd7e595.chunk.js.LICENSE.txt",
+    "static/media/ElvinaTarverdiyevaCV.d6d8de85.pdf": "/MyPortfolio/static/media/ElvinaTarverdiyevaCV.d6d8de85.pdf",
+    "static/media/bird-birds.4e4b8fc4.gif": "/MyPortfolio/static/media/bird-birds.4e4b8fc4.gif",
+    "static/media/birds-flying.622ce033.gif": "/MyPortfolio/static/media/birds-flying.622ce033.gif",
+    "static/media/desktop-computer-new-computers.7f8f3a8f.gif": "/MyPortfolio/static/media/desktop-computer-new-computers.7f8f3a8f.gif",
+    "static/media/img2.6f0c0b91.png": "/MyPortfolio/static/media/img2.6f0c0b91.png",
+    "static/media/myfoto.36612360.png": "/MyPortfolio/static/media/myfoto.36612360.png",
+    "static/media/page1girl.eb6dfc56.gif": "/MyPortfolio/static/media/page1girl.eb6dfc56.gif",
+    "static/media/rafs84-rafs-design.1b2194b1.gif": "/MyPortfolio/static/media/rafs84-rafs-design.1b2194b1.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1ecb874.js",
+    "static/js/2.bbd7e595.chunk.js",
+    "static/css/main.124d862a.chunk.css",
+    "static/js/main.bdfc62e0.chunk.js"
+  ]
+}
