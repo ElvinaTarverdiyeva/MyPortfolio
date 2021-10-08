@@ -1,0 +1,267 @@
+@media only screen and (max-width: 3000px) {
+.about{
+    .aboutFirts{
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        margin-left: 30%;
+        margin-top: 10%;
+        position: absolute;
+        z-index: 4;
+        h3{
+        &:nth-child(1){
+            margin-right: 10px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            opacity: 0;
+            animation: h3ani 1.2s linear 0s ;
+        }
+        &:nth-child(2){
+            margin-right: 10px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            opacity: 0;
+            animation: h3ani 1s linear 0.2s ;
+        }
+    }
+    }
+    .text{
+        width: 100%;
+        margin-top: 9%;
+        font-family: 'Indie Flower', cursive;
+        font-size: 35px;
+        .imgdiv{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            overflow: hidden;
+            z-index: 3;
+            top: 18%;
+            right: 18%;
+            animation: h3ani 2s linear 0s ;
+            img{
+                width: 120%;
+                position: relative;
+                top: 0%;
+                left: -20px;
+            }
+        }
+        .div1{
+            div{
+                position: absolute;
+                width: 100%;
+                height: 55px;
+                background-color: $main-color;
+                z-index: 2;
+                left: 80%;
+                
+            }
+        &:nth-child(1){
+            div{
+                animation: starttime 4s linear 1s;
+            }
+            p{
+                margin-left: 5%;
+                animation: aboutani 1s linear 0s ;
+            }
+        }
+            &:nth-child(2){
+                div{
+                    animation: starttime 4s linear 1.5s;
+                }
+                p{
+                margin-left: 9%;
+                animation: aboutani 1.6s linear 0s ;
+                }
+            }
+            &:nth-child(3){
+                div{
+                    animation: starttime 4s linear 2s;
+                }
+                p{
+                margin-left: 18%;
+                animation: aboutani 2.1s linear 0s ;
+                }
+            }
+            &:nth-child(4){
+                div{
+                    animation: starttime 4s linear 2.5s;
+                }
+                p{
+                margin-left: 25%;
+                animation: aboutani 2.6s linear 0s ;
+                }
+            }
+            &:nth-child(5){
+                div{
+                    animation: starttime 4s linear 3s;
+                }
+                p{
+                margin-left: 35%;
+                animation: aboutani 3.1s linear 0s ;
+                }
+            }
+            &:nth-child(6){
+                div{
+                    animation: starttime 4s linear 3.5s;
+                }
+                p{
+                margin-left: 55%;
+                animation: aboutani 3.6s linear 0s ;
+                }
+            }
+            &:nth-child(7){
+                div{
+                    animation: starttime 4s linear 5s;
+                }
+                p{
+                margin-left: 45%;
+                animation: aboutani 5.1s linear 0s ;
+                }
+            }
+            &:nth-child(8){
+                div{
+                    animation: starttime 4s linear 6s;
+                }
+                p{
+                margin-left: 25%;
+                animation: aboutani 6.1s linear 0s ;
+
+                }
+            }
+        }
+
+    }
+}
+}
+@media only screen and (max-width: 1270px) {
+    .about{
+        .aboutFirts{
+            margin-left: 20%;
+            margin-top: 18rem;
+        }
+        .text{
+            margin-top: 8rem;
+            .imgdiv{
+                width: 250px;
+                height: 250px;
+                top: 15%;
+                animation: h3ani 4s linear 0s ;
+            }
+            .div1{
+            &:nth-child(1){
+                div{
+                    animation: starttime 4s linear 1s;
+                }
+                p{
+                    margin-left: 15%;
+                    animation: aboutani 1s linear 0s ;
+                }
+            }
+                &:nth-child(2){
+                    div{
+                        animation: starttime 4s linear 1.2s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 1.2s linear 0s ;
+                    }
+                }
+                &:nth-child(3){
+                    div{
+                        animation: starttime 4s linear 1.4s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 1.4s linear 0s ;
+                    }
+                }
+                &:nth-child(4){
+                    div{
+                        animation: starttime 4s linear 1.6s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 1.6s linear 0s ;
+                    }
+                }
+                &:nth-child(5){
+                    div{
+                        animation: starttime 4s linear 1.8s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 1.8s linear 0s ;
+                    }
+                }
+                &:nth-child(6){
+                    div{
+                        animation: starttime 4s linear 2s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 2s linear 0s ;
+                    }
+                }
+                &:nth-child(7){
+                    div{
+                        animation: starttime 4s linear 2.2s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 2.2s linear 0s ;
+                    }
+                }
+                &:nth-child(8){
+                    div{
+                        animation: starttime 4s linear 2.4s;
+                    }
+                    p{
+                        margin-left: 15%;
+                        animation: aboutani 2.6s linear 0s ;
+                    }
+                    }
+                }
+            }
+    
+        }
+    }
+    @media only screen and (max-width: 880px) {
+        .about{
+            .aboutFirts{
+                margin-left: 1%;
+                margin-top: 7rem;
+                h3{
+                &:nth-child(1){
+                    font-size: 25px;
+                }
+                &:nth-child(2){
+                    font-size: 25px;
+                }
+            }
+            }
+            .text{
+                margin-top: 18rem;
+                .imgdiv{
+                    width: 250px;
+                    height: 250px;
+                    top: 10%;
+                    left: 25%;
+                    animation: h3ani 4s linear 0s ;
+                }
+                .div1{
+                    div{
+                        height: 40px;
+                        left: 120%;
+                    }
+                    p{
+                        font-size: 25px;
+                    }
+                    }
+                }  
+            }
+        }
+        
+    

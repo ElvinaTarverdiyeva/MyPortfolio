@@ -1,0 +1,25 @@
+$main-color: #ffdacc;
+$primaryColor:#1827a3;
+$scroll-color:#ec7af3;
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: $primaryColor;
+}
+
+::-webkit-scrollbar-track{
+    background-color: $primaryColor;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: $scroll-color;
+    border-radius: 30px;
+}
+
+@import 'navbar';
+@import 'home';
+@import 'about';
+@import 'animation';
+@import 'contact';
+@import 'skills';
+@import 'portfolio';
